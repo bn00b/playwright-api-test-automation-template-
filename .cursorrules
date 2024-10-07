@@ -1,0 +1,69 @@
+{
+  "projectType": "TypeScript",
+  "modules": [
+    "playwright",
+    "typescript"
+  ],
+  "directives": [
+    {
+      "when": "structuring code",
+      "do": "use the Page Object Model pattern to organize your tests."
+    },
+    {
+      "when": "creating tests",
+      "do": "utilize classes to represent pages."
+    },
+    {
+      "when": "writing TypeScript code",
+      "do": "ensure all code is error-free with no TypeScript warnings."
+    },
+    {
+      "when": "configuring files",
+      "do": "use lowercase with dashes for directory names."
+    },
+    {
+      "when": "writing tests",
+      "do": "use descriptive names for test cases and methods."
+    },
+    {
+      "when": "handling asynchronous code",
+      "do": "use async/await for better readability and error handling."
+    },
+    {
+      "when": "importing modules",
+      "do": "use ES6 import syntax."
+    },
+    {
+      "when": "defining types",
+      "do": "prefer interfaces over types for object shapes."
+    },
+    {
+      "when": "writing comments",
+      "do": "use JSDoc style comments for functions and classes."
+    },
+    {
+      "when": "working with file utilities",
+      "do": "use functions from utils/fileUtils.ts without modifying the file itself."
+    },
+    {
+      "when": "working with file paths",
+      "do": "use the getSpecFilePath method from utils/filePaths.ts without modifying it."
+    },
+    {
+      "when": "for getting the full url of an endpoint",
+      "do": "use the getFullUrl method from utils/endPoints.ts"
+    }
+  ],
+  "bestPractices": [
+    "Enable strict mode in TypeScript for better type safety.",
+    "Organize code by creating separate classes for each page.",
+    "Regularly run the 'tsc' command to ensure no type errors persist.",
+    "Use consistent naming conventions for variables, functions, and classes.",
+    "Keep functions small and focused on a single task.",
+    "Use meaningful commit messages for version control.",
+    "Regularly update dependencies to avoid security vulnerabilities.",
+    "Use a linter and formatter to maintain code quality and consistency.",
+    "Treat utils/fileUtils.ts as a stable, shared utility module and avoid modifying it.",
+    "Treat the getSpecFilePath method in utils/filePaths.ts as a stable utility and avoid modifying it."
+  ]
+}

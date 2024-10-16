@@ -15,6 +15,8 @@
 - For endpoint which require data from another endpoint, you need to add description comments as well.
 ![Dependency Data Define Example](assets/readMeImages/Example_DependencyDefine.png)
 - Remove any unnecessary variables from the postman environment file and the collection file. Make sure to delete them, not just disable.
+- Save the collection in ordered list format. It should arranged according to the sequence in which tests should to be run.
+![Postman Collection Format Example](assets/readMeImages/Example_PostmanCollection.png)
 
 ## Generating the API Test Code
 

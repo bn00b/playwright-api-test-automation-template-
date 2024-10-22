@@ -3,7 +3,7 @@
 ## Getting started
 
 - Clone the repository.
-- Run setup.sh to install dependencies.
+- Run setup.sh or setup.bat to install dependencies.
 - Add your postman collection and environment json file on the postman folder.
 
 ## Setting up Postman Collection and Environment
